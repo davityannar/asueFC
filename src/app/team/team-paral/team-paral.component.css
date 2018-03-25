@@ -1,0 +1,16 @@
+.paraya1{
+  height: 800px;
+  width: 800px;
+}
+
+.paraya{
+  background-image: url("https://storage.googleapis.com/cdn.ucraft.me/userFiles/futsal/images/r159-rdu4jslQo-s.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.6;
+}
+
+

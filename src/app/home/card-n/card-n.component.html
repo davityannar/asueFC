@@ -1,0 +1,22 @@
+
+<div *ngFor="let cards of cardArr; let even = even; let odd = odd">
+  <div class="row align-items-center bg-warning text-white"  *ngIf=" even ">
+  <div class="col-6">
+    <img src="{{ cards.imageUrl }}" class="img-fluid wow slideInLeft" alt="Responsive image">
+  </div>
+  <div class="col-6 ">
+    <h1 class="text-center font-weight-bold wow swing "> {{ cards.cardPar }} </h1>
+  </div>
+
+  </div>
+
+<div class="row align-items-center bg-light text-warning" *ngIf=" odd ">
+  <div class="col-6 ">
+    <h1 class="text-center font-weight-bold wow swing "> {{ cards.cardPar }} </h1>
+  </div>
+  <div class="col-6">
+    <img src="{{ cards.imageUrl }}" class="img-fluid wow slideInLeft " alt="Responsive image">
+  </div>
+</div>
+</div>
+

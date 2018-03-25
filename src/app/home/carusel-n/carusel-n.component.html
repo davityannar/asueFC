@@ -1,0 +1,9 @@
+<carousel>
+  <slide  *ngFor="let el of carSlide;">
+    <img src="{{ el.imageUrl }}" alt="First slide" style="display: block; width: 100%;" class="slidePic">
+    <div class="carousel-caption d-none d-md-block">
+      <img src={{el.slideLab}} alt="logo" style="height: 250px;width: 230px" class="animated zoomInUp" >
+      <h1 class="fourth-text animated rubberBand">{{el.slidePar}}  </h1>
+    </div>
+  </slide>
+</carousel>

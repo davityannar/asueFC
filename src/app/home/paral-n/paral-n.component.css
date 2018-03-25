@@ -1,0 +1,17 @@
+.paral  {
+  border: 1px solid rgba(0,0,0,.9);
+  width: 1421px;
+  height:748px;
+  background-image: url("https://storage.googleapis.com/cdn.ucraft.me/userFiles/futsal/images/r147-4LWBUQ4E4_Q.jpg");
+  background-size: 1421px 748px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+  opacity: 0.5;
+}
+
+.card-title{
+  padding-top: 250px;
+  color: darkorange;
+}
+

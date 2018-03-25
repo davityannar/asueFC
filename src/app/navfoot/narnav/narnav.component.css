@@ -1,0 +1,50 @@
+
+
+/*#sample-panel {*/
+/*margin-left: 250px;*/
+/*}*/
+
+#navbarNav {
+  margin-left: 300px;
+}
+
+.nav-item {
+  margin-left: 25px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link{
+  color: floralwhite;
+}
+
+ul li a {
+  color: floralwhite;
+  font-weight: bold;
+}
+
+ul li a.active {
+  color: floralwhite;
+  background-color: #E03237;
+  border-radius: 10px;
+}
+
+ul li a:hover {
+  color: floralwhite;
+}
+
+nav a {
+  color: floralwhite;
+  font-weight: bold;
+}
+
+
+nav a.active {
+  color: floralwhite;
+  background-color: #E03237;
+  border-radius: 10px;
+}
+
+
+.navguin {
+  background-color: #343a40;
+
+}
